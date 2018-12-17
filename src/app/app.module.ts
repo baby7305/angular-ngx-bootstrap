@@ -23,7 +23,18 @@ import { AccordionConfiguringDefaultsComponent } from './accordion/accordion-con
 
 const appRoutes: Routes = [
   { path: '', component: OfficialComponent },
-  { path: 'official', component: OfficialComponent }
+  { path: 'official', component: OfficialComponent },
+  { path: 'accordion/basic', component: AccordionBasicComponent },
+  { path: 'accordion/group-opening-event.component', component: AccordionGroupOpeningEventComponent },
+  { path: 'accordion/custom-html', component: AccordionCustomHtmlComponent },
+  { path: 'accordion/disabled', component: AccordionDisabledComponent },
+  { path: 'accordion/initially-opened', component: AccordionInitiallyOpenedComponent },
+  { path: 'accordion/dynamic', component: AccordionDynamicComponent },
+  { path: 'accordion/dynamic-bady-content', component: AccordionDynamicBadyContentComponent },
+  { path: 'accordion/manual-toggle', component: AccordionManualToggleComponent },
+  { path: 'accordion/open-only-one-at-a-time', component: AccordionOpenOnlyOneAtATimeComponent },
+  { path: 'accordion/styling', component: AccordionStylingComponent },
+  { path: 'accordion/configuring-defaults', component: AccordionConfiguringDefaultsComponent }
 ];
 
 @NgModule({
