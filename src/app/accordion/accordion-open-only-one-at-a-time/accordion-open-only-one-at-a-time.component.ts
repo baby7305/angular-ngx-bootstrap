@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionOpenOnlyOneAtATimeComponent implements OnInit {
 
+  oneAtATime: boolean = true;
+
   constructor() { }
 
   ngOnInit() {

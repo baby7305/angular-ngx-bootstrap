@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionInitiallyOpenedComponent implements OnInit {
 
+  isFirstOpen = true;
+  
   constructor() { }
 
   ngOnInit() {

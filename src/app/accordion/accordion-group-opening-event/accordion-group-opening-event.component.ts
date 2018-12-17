@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionGroupOpeningEventComponent implements OnInit {
 
+  log(event: boolean) {
+    console.log(`Accordion has been ${event ? 'opened' : 'closed'}`);
+  }
+
   constructor() { }
 
   ngOnInit() {

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionDisabledComponent implements OnInit {
 
+  isFirstDisabled = false;
+
   constructor() { }
 
   ngOnInit() {

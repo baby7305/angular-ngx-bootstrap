@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionStylingComponent implements OnInit {
 
+  customClass: string = 'customClass';
+  isFirstOpen: boolean = true
+
   constructor() { }
 
   ngOnInit() {
