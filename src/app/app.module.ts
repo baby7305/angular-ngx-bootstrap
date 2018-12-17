@@ -9,6 +9,17 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OfficialComponent } from './official/official.component';
+import { AccordionBasicComponent } from './accordion/accordion-basic/accordion-basic.component';
+import { AccordionGroupOpeningEventComponent } from './accordion/accordion-group-opening-event/accordion-group-opening-event.component';
+import { AccordionCustomHtmlComponent } from './accordion/accordion-custom-html/accordion-custom-html.component';
+import { AccordionDisabledComponent } from './accordion/accordion-disabled/accordion-disabled.component';
+import { AccordionInitiallyOpenedComponent } from './accordion/accordion-initially-opened/accordion-initially-opened.component';
+import { AccordionDynamicComponent } from './accordion/accordion-dynamic/accordion-dynamic.component';
+import { AccordionDynamicBadyContentComponent } from './accordion/accordion-dynamic-bady-content/accordion-dynamic-bady-content.component';
+import { AccordionManualToggleComponent } from './accordion/accordion-manual-toggle/accordion-manual-toggle.component';
+import { AccordionOpenOnlyOneAtATimeComponent } from './accordion/accordion-open-only-one-at-a-time/accordion-open-only-one-at-a-time.component';
+import { AccordionStylingComponent } from './accordion/accordion-styling/accordion-styling.component';
+import { AccordionConfiguringDefaultsComponent } from './accordion/accordion-configuring-defaults/accordion-configuring-defaults.component';
 
 const appRoutes: Routes = [
   { path: '', component: OfficialComponent },
@@ -18,7 +29,18 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    OfficialComponent
+    OfficialComponent,
+    AccordionBasicComponent,
+    AccordionGroupOpeningEventComponent,
+    AccordionCustomHtmlComponent,
+    AccordionDisabledComponent,
+    AccordionInitiallyOpenedComponent,
+    AccordionDynamicComponent,
+    AccordionDynamicBadyContentComponent,
+    AccordionManualToggleComponent,
+    AccordionOpenOnlyOneAtATimeComponent,
+    AccordionStylingComponent,
+    AccordionConfiguringDefaultsComponent
   ],
   imports: [
     BrowserModule,
